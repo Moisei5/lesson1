@@ -10,7 +10,7 @@ public class HomeWorkApp {
         printColor();
         compareNumbers();
     }
-    private static void printThreeWords() {
+    private static void printThreeWords() { //test
         System.out.println(" Orange ");
         System.out.println(" Banana ");
         System.out.println(" Apple ");
