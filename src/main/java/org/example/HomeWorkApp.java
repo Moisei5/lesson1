@@ -9,29 +9,30 @@ public class HomeWorkApp {
         compareNumbers();
     }
     private static void printThreeWords() { //Создать метод который выводит все слова
-        System.out.println(" Orange ");
-        System.out.println(" Banana ");
-        System.out.println(" Apple ");
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
     }
     private static void checkSumSign() { // Создать метод который должен проссуммировать переменные и вывести положит или отр результат
-        int a = 10, b = 2, c = a + b;
+        int a = 10;
+        int b = 20;
+        int c = a + b;
         if (c >= 0) {
-            System.out.println(" положительный ");
-        }
-        if (c < 0) {
-            System.out.println(" отрицательный ");
+            System.out.println("положительный");
+        } else {
+            System.out.println("отрицательный");
         }
     }     // Создать метод который будет выводить текст цвета в зависимости от числа
     private static void printColor() {
         int value = 101;
         if (value <= 0) {
-            System.out.println(" Красный ");
+            System.out.println("Красный");
         }
         if (value > 0 && value <100){
-        System.out.println(" желтый ");
+        System.out.println("желтый");
     }
         if (value > 100) {
-            System.out.println(" зеленый ");
+            System.out.println("зеленый");
         }
             } // Создать метод больше меньше или равно
     private static void compareNumbers() {
